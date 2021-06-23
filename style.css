@@ -33,12 +33,12 @@ header .menu-icon {
   padding-right: 15px;
 }
 .nav-menu {
+  background-color: var(--pink-logo);
+  display: none;
+}
 
-}
-.nav-menu ul {
-  background: #555;
-}
 .nav-menu ul li {
+  background: #555;
   padding: 20px;
   border: 2px solid var(--pink-logo);
   border-radius: 15px;
