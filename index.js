@@ -1,4 +1,6 @@
 const btnToggle = document.querySelector(".menu-icon")
-const btnMenu = document.querySelector(".nav-menu")
+const navMenu = document.querySelector(".nav-menu")
 
-btnToggle
+btnToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("nav-menu_visible")
+})
